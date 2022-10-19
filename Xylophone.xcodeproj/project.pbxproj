@@ -13,6 +13,7 @@
 		49D3C1B229004C1600EB061A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D3C1B029004C1600EB061A /* Main.storyboard */; };
 		49D3C1B429004C1900EB061A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D3C1B329004C1900EB061A /* Assets.xcassets */; };
 		49D3C1B729004C1900EB061A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D3C1B529004C1900EB061A /* LaunchScreen.storyboard */; };
+		49D3C1C129004F0000EB061A /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 49D3C1C029004F0000EB061A /* Sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		49D3C1B329004C1900EB061A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49D3C1B629004C1900EB061A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49D3C1B829004C1900EB061A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49D3C1C029004F0000EB061A /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				49D3C1B329004C1900EB061A /* Assets.xcassets */,
 				49D3C1B529004C1900EB061A /* LaunchScreen.storyboard */,
 				49D3C1B829004C1900EB061A /* Info.plist */,
+				49D3C1C029004F0000EB061A /* Sounds */,
 			);
 			path = Xylophone;
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			files = (
 				49D3C1B729004C1900EB061A /* LaunchScreen.storyboard in Resources */,
 				49D3C1B429004C1900EB061A /* Assets.xcassets in Resources */,
+				49D3C1C129004F0000EB061A /* Sounds in Resources */,
 				49D3C1B229004C1600EB061A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +293,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Xylophone/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Xylophone;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -316,6 +321,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Xylophone/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Xylophone;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
